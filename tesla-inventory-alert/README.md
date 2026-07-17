@@ -43,7 +43,7 @@ crontab -e
 Add:
 
 ```
-0 * * * * cd /home/zjack/Desktop/Dev/tesla-inventory-alert && DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /usr/bin/env node index.js >> run.log 2>&1
+0 * * * * cd tesla-inventory-alert && DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /usr/bin/env node index.js >> run.log 2>&1
 ```
 
 `notify-send` needs `DISPLAY` and `DBUS_SESSION_BUS_ADDRESS` set to reach your
