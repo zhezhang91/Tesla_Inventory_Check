@@ -1,0 +1,14 @@
+{
+  "name": "tesla-inventory-alert",
+  "version": "1.0.0",
+  "description": "Polls Tesla's public inventory API for new Model 3 units and sends a desktop notification when new matches appear.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.61.1"
+  }
+}
